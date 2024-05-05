@@ -1,14 +1,3 @@
--- Check if the welcome message has been displayed before
-if not Welcome then 
-    Services.StarterGui:SetCore("ChatMakeSystemMessage", {
-        Text = "Script by Shenzzz: TANGINAMO!";
-        Color = Color3.fromRGB(255, 255, 255);
-        Font = Enum.Font.SourceSansBold;
-        FontSize = Enum.FontSize.Size24;
-    }) 
-end
-getgenv().Welcome = true
-
 -- // Constants \\ --
 -- [ Services ] --
 local Services = setmetatable({}, {__index = function(Self, Index)
